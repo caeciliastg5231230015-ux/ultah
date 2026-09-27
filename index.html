@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For Someone Special ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         BACKGROUND DECORATION
+    ========================== -->
+
+    <div class="hearts">
+        <span>♡</span>
+        <span>♥</span>
+        <span>♡</span>
+        <span>♥</span>
+        <span>♡</span>
+        <span>♥</span>
+        <span>♡</span>
+        <span>♥</span>
+    </div>
+
+
+    <!-- =========================
+         MUSIC
+    ========================== -->
+
+    <audio id="backgroundMusic" loop>
+        <source src="music/romantic.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <!-- =========================
+         MUSIC BUTTON
+    ========================== -->
+
+    <button id="musicButton" class="music-button" onclick="toggleMusic()">
+        🎵
+    </button>
+
+
+    <!-- =========================
+         MAIN CONTAINER
+    ========================== -->
+
+    <main class="story-container">
+
+
+        <!-- =========================
+             SLIDE 1
+        ========================== -->
+
+        <section class="slide active" id="slide1">
+
+            <div class="intro-content">
+
+                <div class="small-heart">♡</div>
+
+                <h1>Happy Birthday</h1>
+
+                <h2>Gendut Cinta Adeekkk ❤️</h2>
+
+                <p class="intro-text">
+                    Hari ini adalah hari yang spesial buat gendut.
+                    Tapi sebelum semuanya dimulai...
+                    ada sedikit kejutan yang mau adek berikan.
+                </p>
+
+                <button class="main-button" onclick="startExperience()">
+                    🎁 Buka Kejutan
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SLIDE 2
+        ========================== -->
+
+        <section class="slide" id="slide2">
+
+            <div class="content">
+
+                <span class="number">01</span>
+
+                <h1>Ada Sesuatu yang Ingin Aku Sampaikan...</h1>
+
+                <div class="message-box">
+
+                    <p>
+                        Mungkin kata-kata tidak akan pernah cukup
+                        untuk menggambarkan semuanya.
+                    </p>
+
+                    <p>
+                        Tapi hari ini adek ingin meluangkan sedikit
+                        waktu untuk mengingat beberapa hal indah
+                        yang pernah kita lalui.
+                    </p>
+
+                    <p class="highlight">
+                        Karena setiap cerita selalu punya
+                        kenangan yang layak untuk disimpan. ❤️
+                    </p>
+
+                </div>
+
+                <button class="next-button" onclick="nextSlide()">
+                    Lanjut →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SLIDE 3
+        ========================== -->
+
+        <section class="slide" id="slide3">
+
+            <div class="content">
+
+                <span class="number">02</span>
+
+                <h1>Salah Satu Kenangan</h1>
+
+                <div class="photo-frame">
+
+                    <!-- GANTI DENGAN NAMA FOTO KAMU -->
+                    <img src="images/foto1.jpeg" alt="Kenangan">
+
+                </div>
+
+                <p class="photo-caption">
+                    Salah satu dari banyak momen
+                    yang selalu ingin aku ingat. ❤️
+                </p>
+
+                <button class="next-button" onclick="nextSlide()">
+                    Lanjut →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SLIDE 4
+        ========================== -->
+
+        <section class="slide" id="slide4">
+
+            <div class="content">
+
+                <span class="number">03</span>
+
+                <h1>Hal-Hal Kecil yang Berarti</h1>
+
+                <p class="center-text">
+                    Terkadang bukan tentang sesuatu yang besar.
+                    Justru hal-hal kecil yang membuat sebuah
+                    kenangan terasa begitu berarti.
+                </p>
+
+                <div class="mini-gallery">
+
+                    <div class="mini-photo photo-left">
+                        <img src="images/foto2.jpeg" alt="Kenangan 1">
+                    </div>
+
+                    <div class="mini-photo photo-right">
+                        <img src="images/foto4.jpeg" alt="Kenangan 2">
+                    </div>
+
+                </div>
+
+                <p class="quote">
+                    "Beberapa momen mungkin sederhana,
+                    tapi tetap memiliki tempatnya sendiri
+                    di dalam hati."
+                </p>
+
+                <button class="next-button" onclick="nextSlide()">
+                    Lanjut →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SLIDE 5
+        ========================== -->
+
+        <section class="slide" id="slide5">
+
+            <div class="content">
+
+                <span class="number">04</span>
+
+                <h1>Our Little Memories</h1>
+
+                <p class="center-text">
+                    Beberapa foto, beberapa cerita,
+                    dan banyak kenangan.
+                </p>
+
+                <div class="memory-grid">
+
+                    <div class="memory-card">
+                        <img src="images/foto5.png" alt="Memory 1">
+                    </div>
+
+                    <div class="memory-card">
+                        <img src="images/foto6.jpg" alt="Memory 2">
+                    </div>
+
+                    <div class="memory-card">
+                        <img src="images/foto7.jpg" alt="Memory 3">
+                    </div>
+
+                    <div class="memory-card">
+                        <img src="images/foto8.jpg" alt="Memory 4">
+                    </div>
+
+                </div>
+
+                <button class="next-button" onclick="nextSlide()">
+                    Masih ada lagi... →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SLIDE 6
+        ========================== -->
+
+        <section class="slide" id="slide6">
+
+            <div class="content">
+
+                <span class="number">05</span>
+
+                <div class="music-icon">
+                    ♫
+                </div>
+
+                <h1>Dengarkan Sebentar...</h1>
+
+                <p class="music-message">
+                    Biarkan lagu ini menemani
+                    beberapa kata berikutnya.
+                </p>
+
+                <div class="music-visual">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+
+                <p class="music-text">
+                    Ada beberapa perasaan yang terkadang
+                    lebih mudah disampaikan melalui sebuah lagu.
+                </p>
+
+                <button class="next-button" onclick="nextSlide()">
+                    Lanjut ❤️
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SLIDE 7
+        ========================== -->
+
+        <section class="slide" id="slide7">
+
+            <div class="content letter-content">
+
+                <span class="number">06</span>
+
+                <div class="envelope">
+                    💌
+                </div>
+
+                <h1>Untuk Kamu</h1>
+
+                <div class="letter">
+
+                    <p>
+                        Hai...
+                    </p>
+
+                    <p>
+                        Hari ini adekk cuma mau mengucapkan
+                        sesuatu yang sederhana.
+                    </p>
+
+                    <p>
+                        Terima kasih sudah menjadi bagian dari
+                        begitu banyak cerita, tawa, percakapan,
+                        dan kenangan.
+                    </p>
+
+                    <p>
+                        Semoga di usia yang baru ini,
+                        gendutt selalu diberikan kebahagiaan,
+                        kesehatan, dan banyak hal baik.
+                    </p>
+
+                    <p>
+                        Semoga semua hal yang gendutt impikan
+                        perlahan menemukan jalannya.
+                    </p>
+
+                    <p class="letter-ending">
+                        Dan semoga adekk selalu jadi alasan
+                        biar gendut senyum selalu. ❤️
+                    </p>
+
+                </div>
+
+                <button class="next-button" onclick="nextSlide()">
+                    Satu hal terakhir... →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SLIDE 8
+        ========================== -->
+
+        <section class="slide final-slide" id="slide8">
+
+            <div class="final-content">
+
+                <div class="final-hearts">
+                    ♥ ♥ ♥
+                </div>
+
+                <h1>
+                    Happy Birthday
+                </h1>
+
+                <h2>
+                    🎂❤️
+                </h2>
+
+                <p class="final-name">
+                    gendut kesayangan adek a.k.a Mario Agasy Saragih
+                </p>
+
+                <p class="final-message">
+                    Semoga hari ini menjadi awal
+                    dari banyak kebahagiaan baru.
+                </p>
+
+                <div class="final-line"></div>
+
+                <p class="final-small">
+                    Thank you for being part of
+                    this beautiful story and i always love u.
+                </p>
+
+                <div class="confetti-symbol">
+                    ✨ 🎈 ✨
+                </div>
+
+                <button class="replay-button" onclick="restartStory()">
+                    ↻ Ulangi dari awal
+                </button>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- =========================
+         SLIDE INDICATOR
+    ========================== -->
+
+    <div class="slide-indicator">
+
+        <span class="dot active-dot" id="dot1"></span>
+        <span class="dot" id="dot2"></span>
+        <span class="dot" id="dot3"></span>
+        <span class="dot" id="dot4"></span>
+        <span class="dot" id="dot5"></span>
+        <span class="dot" id="dot6"></span>
+        <span class="dot" id="dot7"></span>
+        <span class="dot" id="dot8"></span>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
